@@ -6,6 +6,7 @@ import numpy as np
 import pandas as pd
 import geopandas as gpd
 import plotly.express as px
+import seaborn as sns
 import matplotlib.pyplot as plt
 import os
 import time
