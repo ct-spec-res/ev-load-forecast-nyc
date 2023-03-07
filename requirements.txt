@@ -14,6 +14,8 @@ certifi==2022.12.7
 cffi==1.15.1
 charset-normalizer==3.0.1
 click==8.1.3
+click-plugins==1.1.1
+cligj==0.7.2
 comm==0.1.2
 contourpy==1.0.7
 cycler==0.11.0
@@ -22,8 +24,10 @@ decorator==5.1.1
 defusedxml==0.7.1
 executing==1.2.0
 fastjsonschema==2.16.3
+Fiona==1.9.1
 fonttools==4.38.0
 fqdn==1.5.1
+geopandas==0.12.2
 idna==3.4
 importlib-metadata==6.0.0
 ipykernel==6.21.2
@@ -51,14 +55,17 @@ MarkupSafe==2.1.2
 matplotlib==3.6.3
 matplotlib-inline==0.1.6
 mistune==2.0.5
+munch==2.5.0
 nbclassic==0.5.2
 nbclient==0.7.2
 nbconvert==7.2.9
 nbformat==5.7.3
 nest-asyncio==1.5.6
+networkx==3.0
 notebook==6.5.2
 notebook-shim==0.2.2
 numpy==1.24.2
+osmnx==1.3.0
 packaging==23.0
 pandas==1.5.3
 pandocfilters==1.5.0
@@ -76,6 +83,7 @@ pure-eval==0.2.2
 pycparser==2.21
 Pygments==2.14.0
 pyparsing==3.0.9
+pyproj==3.4.1
 pyrsistent==0.19.3
 python-dateutil==2.8.2
 python-json-logger==2.0.7
@@ -88,6 +96,7 @@ rfc3339-validator==0.1.4
 rfc3986-validator==0.1.1
 scipy==1.10.0
 Send2Trash==1.8.0
+shapely==2.0.1
 six==1.16.0
 sniffio==1.3.0
 soupsieve==2.4
