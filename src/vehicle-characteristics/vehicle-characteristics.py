@@ -16,17 +16,17 @@ def url_to_df(url):
     data_file = StringIO(clean_bytes)# Read string into a new file
     return pd.read_csv(data_file)# Load data into pandas
 
-
+# Manhattan:10001-10282. Staten Island :10301-10314. Bronx: 10451-10475. Queens:11004-11109, 11351-11697.
 
 df = url_to_df(url)
 
-print(df['VIN Prefix'][1])
+print(df.sort_values(by = ['Valid Date']))
 
-single_vin = df['VIN Prefix'][1] + '0000000'
+# print(df['VIN Prefix'][1])
 
-print()
+# single_vin = df['VIN Prefix'][1] + '0000000'
 
-veh = pyvin.VIN(single_vin, error_handling=pyvin.RAISE)
+# veh = pyvin.VIN(single_vin, error_handling=pyvin.RAISE)
 
 # print(veh.Make, veh.Model, veh.ModelYear)
 
