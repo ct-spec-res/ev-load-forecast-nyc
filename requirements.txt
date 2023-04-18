@@ -78,6 +78,7 @@ pexpect==4.8.0
 pickleshare==0.7.5
 Pillow==9.4.0
 platformdirs==3.0.0
+plotly==5.14.1
 prometheus-client==0.16.0
 prompt-toolkit==3.0.38
 psutil==5.9.4
@@ -108,6 +109,7 @@ sodapy==2.2.0
 soupsieve==2.4
 stack-data==0.6.2
 statsmodels==0.13.5
+tenacity==8.2.2
 terminado==0.17.1
 threadpoolctl==3.1.0
 tinycss2==1.2.1
