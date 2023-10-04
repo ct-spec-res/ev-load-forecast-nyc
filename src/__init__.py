@@ -6,6 +6,7 @@ pd.set_option("display.max_columns", 1000)
 
 import geopandas as gpd
 import plotly.express as px
+import plotly.graph_objects as go
 import matplotlib.pyplot as plt
 import sys, os
 import time
